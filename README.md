@@ -42,11 +42,21 @@ pip install opencv-python torch ultralytics deep_sort_realtime
 
 ## Demo
 
-<!-- Pipeline screenshot -->
-![Pipeline Demo](images/pipeline_demo.png)
+### Cropped Person Examples
 
-<!-- Short demo video -->
-<video src="videos/demo.mp4" controls>Your browser does not support the video tag.</video>
+Below are examples of cropped person images with their corresponding classification outputs:
+<br>
+
+| Person Image        | Classification Summary         |
+|---------------------|--------------------------------|
+| ![Person 1](Person1.png) | Contents of `person_1.jpg.txt` |
+| ![Person 2](Person2.png) | Contents of `person_2.jpg.txt` |
+| ![Person 3](person3.png) | Contents of `person_3.jpg.txt` |
+| ![Person 4](Person4.png) | Contents of `person_4.jpg.txt` |
+
+### Full Scene with Tracking
+
+![Full Scene](Scene.png)
 
 ## File Structure
 
@@ -60,11 +70,17 @@ Multi-Phase-Yolo-Image-classifier/
 ├── people/
 │   ├── person_1.jpg
 │   ├── person_1.jpg.txt
-│   └── ...
+│   ├── person_2.jpg
+│   ├── person_2.jpg.txt
+│   ├── person_3.jpg
+│   ├── person_3.jpg.txt
+│   ├── person_4.jpg
+│   └── person_4.jpg.txt
 ├── images/
 │   └── pipeline_demo.png
 ├── videos/
 │   └── demo.mp4
+├── Scene.png
 ├── LICENSE
 └── README.md
 ```
